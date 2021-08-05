@@ -9,7 +9,7 @@ const badwords = settings.badwords.list;
 
 module.exports = {
 	name: 'badwords',
-	execute(message, args, client, edit) {
+	execute(message, client) {
 		for(let i=0;i<settings.badwords.blacklist.channel.length;i++) {
 			if(message.channel.id == settings.badwords.blacklist.channel[i]) return;
 		}
