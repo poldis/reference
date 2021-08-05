@@ -42,8 +42,8 @@ module.exports = {
 			pool.getConnection(function(err, con) {
 				if(err) throw err;
 
-          // SQL Queries
-          // Insert a warning in the database
+				  // SQL Queries
+				  // Insert a warning in the database
 
 				con.release();	
 			});
