@@ -1,3 +1,8 @@
+// ++
+// This is only a small part of the project and won't work like this
+// This is only used as a reference
+// ++
+
 const pool = require('../pool.js').poolMod;
 const settings = require('./settings.json');
 const badwords = settings.badwords.list;
